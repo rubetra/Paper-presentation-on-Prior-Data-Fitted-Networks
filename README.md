@@ -2,9 +2,10 @@
 
 > Paper presentation · Seminar in Advanced Topics in Machine Learning · ETH Zürich (Fall 2025) · Sophie Haldemann
 
-This repository contains my seminar presentation of:
+<br>
 
-> Müller, S., Hollmann, N., Pineda, S., Grabocka, J., & Hutter, F. (2022). *Transformers Can Do Bayesian Inference*. ICLR 2022.
+This repository contains my seminar presentation of:
+Müller, S., Hollmann, N., Pineda, S., Grabocka, J., & Hutter, F. (2022). *Transformers Can Do Bayesian Inference*. ICLR 2022.
 
 
 ## Overview
@@ -43,9 +44,9 @@ A PFN is a transformer $T_\theta$ trained to approximate Bayesian inference:
 
 **2. Pretraining:** Optimize $T_\theta$ to minimize the negative log-likelihood of held-out test points across all $K$ datasets:
 
-$$\ell_\theta = -\sum_{i=1}^{K} \log q_\theta\!\left(y^{(i)} \mid x^{(i)}, D^{(i)}\right)$$
+$$\ell_\theta = -\sum_{i=1}^{K} \log\ q_\theta \left(y^{(i)} \mid x^{(i)}, D^{(i)}\right)$$
 
-   This objective is equivalent to minimizing the expected KL-divergence between the true PPD and the model's approximation.
+ This objective is equivalent to minimizing the expected KL-divergence between the true PPD and the model's approximation.
 
 **3. Inference:** The trained $T_{\hat{\theta}}$ performs instant Bayesian inference for a query point $x^*$ given a new dataset in just **1 forward pass**.
 
