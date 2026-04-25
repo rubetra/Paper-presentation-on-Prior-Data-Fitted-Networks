@@ -23,7 +23,7 @@ This presentation covers **Prior-Data Fitted Networks (PFNs)**, a meta-learning 
 
 - Classical Bayesian inference requires computing the **Posterior Predictive Distribution (PPD)**:
 
-  $$p(y^{\ast} \mid x^{\ast}, D) = \int p(y^{\ast} \mid x^{\ast}, \theta) \, p(\theta \mid D) \, d\theta$$
+  $$p(y^{\ast} \mid x^{\ast}, D) = \int p(y^{\ast} \mid x^{\ast} \theta) \ p(\theta \mid D) \ d\theta$$
 
 - The PPD is intractable in most real-world settings
 - Approximation methods such as MCMC and Variational Inference are typically slow and expensive
