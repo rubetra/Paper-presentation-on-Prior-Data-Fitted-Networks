@@ -1,14 +1,10 @@
-
-
 # Transformers Can Do Bayesian Inference
 
 > Paper presentation · Seminar in Advanced Topics in Machine Learning · ETH Zürich (Fall 2025) · Sophie Haldemann
 
-Presentation of the paper Müller, S., Hollmann, N., Pineda, S., Grabocka, J., & Hutter, F. (2022). *Transformers Can Do Bayesian Inference*. Published at ICLR 2022. University of Freiburg, Charité Berlin, Bosch Center for AI.
+This repository contains my seminar presentation of:
 
-<br>
-
-
+> Müller, S., Hollmann, N., Pineda, S., Grabocka, J., & Hutter, F. (2022). *Transformers Can Do Bayesian Inference*. ICLR 2022.
 
 
 ## Overview
